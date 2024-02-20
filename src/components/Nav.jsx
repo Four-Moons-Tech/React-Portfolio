@@ -1,3 +1,5 @@
+import {Link} from  'react-router-dom'
+
 export default function Nav() {
     const linkStyle = { border: '1px black', padding: '5px' };
   
@@ -13,16 +15,16 @@ export default function Nav() {
           }}
         >
           <div style={linkStyle}>
-            <a href="#">About Me</a>
+            <Link to="/">About Me</Link>
           </div>
           <div style={linkStyle}>
-            <a href="#">Portfolio</a>
+            <Link to="/portfolio">Portfolio</Link>
           </div>
           <div style={linkStyle}>
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
           </div>
           <div style={linkStyle}>
-            <a href="#">Resume</a>
+            <Link to="/resume">Resume</Link>
           </div>
         </section>
       </nav>

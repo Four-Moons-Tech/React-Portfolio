@@ -1,8 +1,8 @@
 function Footer(){
     return (
         <footer>
-            <link rel="stylesheet" href="" />
+            {/* <link rel="stylesheet" href="" /> */}
         </footer>
     )
 }
-export default Footer
+export default Footer;

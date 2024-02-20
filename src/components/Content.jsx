@@ -1,18 +1,24 @@
 
-import AboutMe from './AboutMe';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
+import AboutMe from '../pages/AboutMe';
+import Portfolio from '../pages/Portfolio';
+import Contact from '../pages/Contact';
+import Resume from '../pages/Resume';
+
+import { Routes, Route } from 'react-router-dom'
 
 function Content() {
     return (
-        <section>
-            < AboutMe />
-            < Portfolio />
-            < Contact />
-            < Resume />
-        </section>
+    
+
+        <Routes>
+            <Route path="/" element={<AboutMe />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={< Resume />} />
+            
+        </Routes>
+        
     )
 
 }
-export default Content
+export default Content;
