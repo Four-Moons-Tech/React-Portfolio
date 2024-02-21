@@ -13,6 +13,15 @@ function Portfolio() {
                 <div className="col">
                     <Project />
                 </div>
+                <div className="col">
+                    <Project />
+                </div>
+                <div className="col">
+                    <Project />
+                </div>
+                <div className="col">
+                    <Project />
+                </div>
             </div>
         </div>
     )

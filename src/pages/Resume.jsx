@@ -1,7 +1,7 @@
 function Resume(){
     return (
         <p>
-            Placeholder
+            <a href="/myResume.pdf" target="_blank">Click here to download my resume</a>
         </p>
     )
 }
