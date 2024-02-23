@@ -9,7 +9,7 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className="container-fluid h-100">
       <Header />
       <Content />
       <Footer />

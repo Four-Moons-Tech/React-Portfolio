@@ -4,12 +4,21 @@ footer {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #003153; 
+    
+}
+footer {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    color: #B5A642
+    color: #B5A642;
+    margin: 25px;
+
 }
 
 .header nav {
@@ -33,14 +42,23 @@ footer ul {
     justify-content: space-around;
 }
 
-.container {
-   padding: 25px;
-   background-color: #8d9db6;
+img {
+    max-width: 200px;
+    max-height: 200px;
+    border:solid #ccced8;
+    border-width: 2px;
+    margin: 50px;
 }
-.col{
-    margin: 25px 25px 25px 25px;
+footer img{
+    display: block;
+    margin: 10px auto;
+    max-width: 40px;
 }
-.row {
-    margin: 25px;
-    
+.about-me{
+    background-color: #8d9db6;
+    min-height: 100%;
+   
+}
+.text{
+    padding-top: 50px;
 }
