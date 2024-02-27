@@ -10,8 +10,8 @@ export default function Nav() {
             display: 'flex',
             fontFamily: 'helvetica',
             flexDirection: 'row',
-            alignItems: 'flex-end',
-            justifyContent: 'flex-end',
+            // alignItems: 'flex-end',
+            // justifyContent: 'flex-end',
           }}
         >
           <div style={linkStyle}>

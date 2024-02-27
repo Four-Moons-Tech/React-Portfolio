@@ -1,8 +1,10 @@
 function Resume(){
     return (
-        <p>
-            <a href="/myResume.pdf" target="_blank">Click here to download my resume</a>
-        </p>
+        <section>
+            <p>
+                <a href="/Resume.pdf" target="_blank">Click here to download my resume</a>
+            </p>
+        </section>
     )
 }
 

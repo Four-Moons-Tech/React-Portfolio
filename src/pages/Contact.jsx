@@ -24,17 +24,19 @@ function Contact(){
     }
 
     return (
-        <form onSubmit={handleForm}>
-            <input type="text" placeholder="Enter your name" name="name"/> <br />
-            <input type="email" placeholder="Enter your email address" name="email"/> <br />
-            <textarea  placeholder ="Your message"cols="30" rows="10" name="message"></textarea> <br />
-            <button>
-                Submit
-            </button>
-            <span>
-                {error}
-            </span>
-        </form>
+        <section>
+            <form onSubmit={handleForm}>
+                <input type="text" placeholder="Enter your name" name="name"/> <br />
+                <input type="email" placeholder="Enter your email address" name="email"/> <br />
+                <textarea  placeholder ="Your message"cols="30" rows="10" name="message"></textarea> <br />
+                <button>
+                    Submit
+                </button>
+                <span>
+                    {error}
+                </span>
+            </form>
+        </section>
     )
 }
 

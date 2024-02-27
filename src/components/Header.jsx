@@ -3,9 +3,11 @@ import Nav from './Nav';
 
 function Header (){
     return (
-        <header className="header container-fluid">
-            <h1>Anna Moon</h1>
-            <Nav /> 
+        <header className="header">
+            <div className="header-container">
+                <h1>Anna Moon</h1>
+                <Nav />
+            </div>
         </header>  
     )
 }

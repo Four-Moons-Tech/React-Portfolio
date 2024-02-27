@@ -1,13 +1,13 @@
 function AboutMe() {
     return (
         <section className="about-me ">
-            <div class="container text-center text">
-                <div class="row">
-                    <div class="col-4">
-                        <img src="../assets/images/MyPhoto.jpg" class="img-fluid" alt="My Photo" />
+            <div className="container text-center text">
+                <div className="row">
+                    <div className="col-12 col-lg-4">
+                        <img src="../assets/images/MyPhoto.jpg" className="img-fluid" alt="My Photo" />
                     </div>
-                    <div class="col-8">
-                        <p >My Name is Anna Moon....</p>
+                    <div className="col-12 col-lg-8">
+                        <p >My name is Anna Moon. Since 2019 I have been doing no code app development on the Microsoft Power Plantform. Currently I am mastering my skills in Power Pages development. Becoming a full stack developer will be a great addition to my current position in the company I co-own.</p>
                     </div>
                 </div>
             </div>
