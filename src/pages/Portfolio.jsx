@@ -42,7 +42,7 @@ function Portfolio() {
     ]
     return (
         <section className="portfolio container-fluid text-center pb-5">
-            <div className="row gy-3">
+            <div className="row gy-4">
                 {projects.map((project, index) => (
                     <div className="col-12 col-md-6 col-lg-4" key={index}>
                         <ProjectCard title={project.title} description={project.description} repo={project.repo} image={project.image}/>

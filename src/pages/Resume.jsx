@@ -1,8 +1,11 @@
-function Resume(){
+function Resume() {
     return (
-        <section>
+        <section className='background'>
             <p>
                 <a href="/Resume.pdf" target="_blank">Click here to download my resume</a>
+            </p>
+            <p>
+
             </p>
         </section>
     )

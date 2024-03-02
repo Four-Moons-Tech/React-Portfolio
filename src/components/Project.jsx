@@ -1,7 +1,7 @@
 
 function ProjectCard({title, description, repo, image}) {
     return (
-        <div className="card h-100 m-2" >
+        <div className="card h-100 m-4" >
             <img src={image} className="card-img-top" alt={title}/>
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
